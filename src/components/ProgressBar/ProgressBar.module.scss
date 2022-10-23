@@ -1,0 +1,29 @@
+.bar {
+    width: 40vw;
+    background-color: rgb(187, 187, 187);
+    margin-top: 20px;
+    align-self: center;
+    
+}
+
+.barDone {
+    background: linear-gradient(90deg, rgba(255, 4, 213, 0.959),70%, rgba(0, 150, 250, 0.966));
+}
+
+.bar, .barDone {
+    border-radius: 50px;
+    height: 5px;
+   
+}
+
+.progressIndicator {
+    margin: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 1000px) {
+    .bar {
+        width: 10vw;
+    }
+}

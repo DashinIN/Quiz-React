@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40vh;
+    width: 100%;
+    text-align: center;
+}
+
+.again {
+    width: 50%;
+}
+.back {
+    margin-top: auto;
+    background: transparent;
+}
+
+@media (min-width:1000px) {
+    .again {
+        width: 20%;
+    }
+
+}
