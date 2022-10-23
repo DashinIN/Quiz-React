@@ -2,7 +2,7 @@ import React from "react";
 
 import Hero from "./components/Hero/Hero";
 
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import questions from "./assets/questions"
 
 import "./App.scss"
@@ -82,6 +82,7 @@ function App() {
               />
           </React.Suspense>
            }/>
+           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
         </div>
         </CSSTransition>
