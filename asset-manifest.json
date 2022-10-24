@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Quiz-React/static/css/main.1ffa746e.css",
-    "main.js": "/Quiz-React/static/js/main.d5949de2.js",
+    "main.css": "/Quiz-React/static/css/main.ecdf8d92.css",
+    "main.js": "/Quiz-React/static/js/main.d9ac8879.js",
     "static/css/64.fa53987c.chunk.css": "/Quiz-React/static/css/64.fa53987c.chunk.css",
-    "static/js/64.ee0a48f0.chunk.js": "/Quiz-React/static/js/64.ee0a48f0.chunk.js",
-    "static/css/906.34f20688.chunk.css": "/Quiz-React/static/css/906.34f20688.chunk.css",
-    "static/js/906.e16ab61b.chunk.js": "/Quiz-React/static/js/906.e16ab61b.chunk.js",
+    "static/js/64.0e103efb.chunk.js": "/Quiz-React/static/js/64.0e103efb.chunk.js",
+    "static/css/906.c24fad1e.chunk.css": "/Quiz-React/static/css/906.c24fad1e.chunk.css",
+    "static/js/906.3eef3b7d.chunk.js": "/Quiz-React/static/js/906.3eef3b7d.chunk.js",
+    "static/media/cake1.png": "/Quiz-React/static/media/cake1.1e96ea4066effe2d485a.png",
+    "static/media/fire.gif": "/Quiz-React/static/media/fire.7750db43217f387eed9e.gif",
+    "static/media/cake2.png": "/Quiz-React/static/media/cake2.2fb7021501ee378bde0e.png",
+    "static/media/shari.png": "/Quiz-React/static/media/shari.95e482353eb3b116a4a4.png",
     "index.html": "/Quiz-React/index.html",
-    "main.1ffa746e.css.map": "/Quiz-React/static/css/main.1ffa746e.css.map",
-    "main.d5949de2.js.map": "/Quiz-React/static/js/main.d5949de2.js.map",
+    "main.ecdf8d92.css.map": "/Quiz-React/static/css/main.ecdf8d92.css.map",
+    "main.d9ac8879.js.map": "/Quiz-React/static/js/main.d9ac8879.js.map",
     "64.fa53987c.chunk.css.map": "/Quiz-React/static/css/64.fa53987c.chunk.css.map",
-    "64.ee0a48f0.chunk.js.map": "/Quiz-React/static/js/64.ee0a48f0.chunk.js.map",
-    "906.34f20688.chunk.css.map": "/Quiz-React/static/css/906.34f20688.chunk.css.map",
-    "906.e16ab61b.chunk.js.map": "/Quiz-React/static/js/906.e16ab61b.chunk.js.map"
+    "64.0e103efb.chunk.js.map": "/Quiz-React/static/js/64.0e103efb.chunk.js.map",
+    "906.c24fad1e.chunk.css.map": "/Quiz-React/static/css/906.c24fad1e.chunk.css.map",
+    "906.3eef3b7d.chunk.js.map": "/Quiz-React/static/js/906.3eef3b7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ffa746e.css",
-    "static/js/main.d5949de2.js"
+    "static/css/main.ecdf8d92.css",
+    "static/js/main.d9ac8879.js"
   ]
 }
