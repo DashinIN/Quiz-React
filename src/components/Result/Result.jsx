@@ -17,7 +17,7 @@ const Result = ({correct, all, restartQuiz}) => {
             
             <div className={s.wrapper}>
                 <h1>Конец</h1>
-                <p >Ты отгадала {correct} из {all}!</p>
+                <p >Ты ответила правильно на {correct} из {all}!</p>
                 <Link className={s.again} to="/test" >Пройти заново</Link>
                 <Link className={s.back} to="/">На главную</Link>
             </div>

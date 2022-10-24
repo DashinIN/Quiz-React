@@ -5,6 +5,8 @@
     flex-direction: column;
     margin-top: 20vh;
     align-items: center; 
+    transform: translate(0);
+    
 }
 
 .next {
@@ -43,13 +45,13 @@ p {
 
 .questionImage {
     border-radius: 10px;
-    border: 1px solid rgb(238, 237, 237);
+    border: 1px solid rgb(206, 206, 206);
     max-height: 60vh;
     min-height: 35vh;
     min-width: 70vw;
     object-fit: cover;
     object-position: top;
-
+    transform: translate(0);
     
 }
 

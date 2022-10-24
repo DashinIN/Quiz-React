@@ -1,0 +1,42 @@
+.backImage{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.3;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    scale: 1.1;
+    
+}
+.cakeImage1 {
+   
+    width: 20%;
+    margin-top: 17vh;
+    rotate: -25deg;
+    filter: blur(2px);
+    opacity: 0.7;
+    
+}
+
+.cakeImage2 {
+   
+    width: 16%;
+    margin-top: 17vh;
+    rotate: 20deg;
+    margin-left: 80%;
+    filter: blur(2px);
+    opacity: 0.7;
+    
+}
+
+.shar {
+    width: 20%;
+    margin-left: 40%;
+    filter: blur(2px) contrast(0.9);
+    opacity: 0.8;
+    
+}

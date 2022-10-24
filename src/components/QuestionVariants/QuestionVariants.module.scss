@@ -1,13 +1,17 @@
-
+.wrapper {
+    transform: translate(0);
+}
 
 .variant {
     border: 1px solid rgb(199, 40, 146);
     border-radius: 5px;
-    background: linear-gradient(90deg, rgba(109, 9, 96, 0.678), rgba(0, 0, 255, 0.582));
+    background: linear-gradient(90deg, rgba(109, 9, 96, 0.842), rgba(0, 0, 255, 0.918));
     width: 100%;
     color: whitesmoke;
     text-align: start;
     font-size: 1em;
+   
+    
 &:hover {
     border: 1px solid rgb(255, 255, 255);
     translate: 0 2px;
@@ -17,7 +21,7 @@
 transition: border 0.2s ease, translate 0.2s ease ;
 }
 
-
+            
 ul {
     list-style-type: none;
     margin: 20px auto;

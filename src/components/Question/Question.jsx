@@ -3,8 +3,9 @@ import QuestionVariants from "../QuestionVariants/QuestionVariants";
 import ResComment from "../ResComment/ResComment";
 
 import ProgressBar from "../ProgressBar/ProgressBar";
-
+import Paralax from "../Paralax/Paralax";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+
 import s from "./Question.module.scss"
 
 const Question = ({questions, state,questionState,correctRes, onClickVariant,onClickNext}) => {
@@ -15,9 +16,15 @@ const Question = ({questions, state,questionState,correctRes, onClickVariant,onC
     document.title = `${state+1} вопрос`;
     const question = questions[state];
 
+  
+
+
     return (
-        <div className={s.wrapper}>
+        
+        <div  className={s.wrapper}>
+            <Paralax image={question.backImage}/>
            
+        
             <> 
                 <TransitionGroup>
                         { questionState===0 ? (
@@ -27,7 +34,7 @@ const Question = ({questions, state,questionState,correctRes, onClickVariant,onC
                         timeout={600}
                         classNames="fade"
                         >
-                            <div className={s.questionField}>
+                            <div  className={s.questionField}>
                                 <QuestionVariants question={question} onClickVariant={onClickVariant}/>    
                                     <>
                                         {
@@ -75,7 +82,9 @@ const Question = ({questions, state,questionState,correctRes, onClickVariant,onC
                         )}
                 </TransitionGroup>
             </> 
+           
         </div>
+       
     );
 }
   
