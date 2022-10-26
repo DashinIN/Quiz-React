@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Quiz-React/static/css/main.d0f24317.css",
-    "main.js": "/Quiz-React/static/js/main.171860fa.js",
+    "main.js": "/Quiz-React/static/js/main.fad7faff.js",
     "static/css/64.fa53987c.chunk.css": "/Quiz-React/static/css/64.fa53987c.chunk.css",
-    "static/js/64.0e103efb.chunk.js": "/Quiz-React/static/js/64.0e103efb.chunk.js",
+    "static/js/64.ee0a6baf.chunk.js": "/Quiz-React/static/js/64.ee0a6baf.chunk.js",
     "static/css/906.2d430864.chunk.css": "/Quiz-React/static/css/906.2d430864.chunk.css",
-    "static/js/906.3eef3b7d.chunk.js": "/Quiz-React/static/js/906.3eef3b7d.chunk.js",
+    "static/js/906.1eeee55e.chunk.js": "/Quiz-React/static/js/906.1eeee55e.chunk.js",
     "static/media/cake1.png": "/Quiz-React/static/media/cake1.1e96ea4066effe2d485a.png",
     "static/media/fire.gif": "/Quiz-React/static/media/fire.7750db43217f387eed9e.gif",
     "static/media/cake2.png": "/Quiz-React/static/media/cake2.2fb7021501ee378bde0e.png",
     "static/media/shari.png": "/Quiz-React/static/media/shari.95e482353eb3b116a4a4.png",
     "index.html": "/Quiz-React/index.html",
     "main.d0f24317.css.map": "/Quiz-React/static/css/main.d0f24317.css.map",
-    "main.171860fa.js.map": "/Quiz-React/static/js/main.171860fa.js.map",
+    "main.fad7faff.js.map": "/Quiz-React/static/js/main.fad7faff.js.map",
     "64.fa53987c.chunk.css.map": "/Quiz-React/static/css/64.fa53987c.chunk.css.map",
-    "64.0e103efb.chunk.js.map": "/Quiz-React/static/js/64.0e103efb.chunk.js.map",
+    "64.ee0a6baf.chunk.js.map": "/Quiz-React/static/js/64.ee0a6baf.chunk.js.map",
     "906.2d430864.chunk.css.map": "/Quiz-React/static/css/906.2d430864.chunk.css.map",
-    "906.3eef3b7d.chunk.js.map": "/Quiz-React/static/js/906.3eef3b7d.chunk.js.map"
+    "906.1eeee55e.chunk.js.map": "/Quiz-React/static/js/906.1eeee55e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0f24317.css",
-    "static/js/main.171860fa.js"
+    "static/js/main.fad7faff.js"
   ]
 }
