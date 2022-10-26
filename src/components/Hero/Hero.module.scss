@@ -5,12 +5,11 @@
 }
 
 .intro {
-    margin: 30vh 20vw 0;
+    margin: 15vh 5vw 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
    transform: translate(0);
-  
 
 }
 
@@ -19,8 +18,7 @@
     margin: 20px;
     text-align: center;
     font-size: 1.2rem;
-   width: 30%;
-   margin: 0;
+    width: 60%;
    font-weight: bold;
 }
 .paragraph {
@@ -32,5 +30,24 @@
 .header {
     text-align: center;
     margin: 10px;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
+}
+
+
+@media (min-width:1000px) {
+    .intro {
+        margin: 30vh 20vw 0;
+    }
+
+    .header {
+      
+        font-size: 2.5rem;
+    }
+
+    .nav__item {
+      
+       width: 30%;
+      
+    }
+    
 }

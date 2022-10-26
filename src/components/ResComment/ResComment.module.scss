@@ -7,6 +7,7 @@
     align-items: center; 
     transform: translate(0);
     
+    
 }
 
 .next {
@@ -46,9 +47,10 @@ p {
 .questionImage {
     border-radius: 10px;
     border: 1px solid rgb(206, 206, 206);
-    max-height: 60vh;
-    min-height: 35vh;
+    max-height: 50vh;
+    min-height: 40vh;
     min-width: 70vw;
+    max-width: 90vw;
     object-fit: cover;
     object-position: top;
     transform: translate(0);
@@ -56,10 +58,14 @@ p {
 }
 
 @media (min-width:1000px) {
+    .wrapper {
+        margin: 20vh;
+    }
     .questionImage {
         max-height: 50vh;
         min-height: 35vh;
-        min-width: 35vw;
+        max-width: 35vw;
+        min-width: 40vw;
     }
     
 }

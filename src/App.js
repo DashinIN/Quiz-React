@@ -59,8 +59,8 @@ function App() {
       <CSSTransition key={location.key} classNames="change" appear={true}  >
       <div className="wrapper">
         <Routes location={location}>
-          <Route path="/"  element={<Hero />}/>  
-          <Route path="/test" element={
+          <Route path="/Quiz-React"  element={<Hero />}/>  
+          <Route path="Quiz-React/test" element={
           <React.Suspense fallback={<></>}>
             <Question
             questions={questions}
@@ -73,7 +73,7 @@ function App() {
           </React.Suspense>
 
           } />
-          <Route path="/result" element={
+          <Route path="/Quiz-React/result" element={
             <React.Suspense fallback={<></>}>
               <Result
               correct={correct}
@@ -82,7 +82,7 @@ function App() {
               />
           </React.Suspense>
            }/>
-           <Route path="*" element={<Navigate replace to="/" />} />
+           <Route path="*" element={<Navigate replace to="/Quiz-React" />} />
         </Routes>
         </div>
         </CSSTransition>

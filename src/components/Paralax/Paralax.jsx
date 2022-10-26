@@ -8,10 +8,15 @@ import shar from "../../assets/imagesParalax/shari.png"
 
 const Paralax = ({image}) => {
 
+    
+
     React.useEffect(() => {
         let scene = document.getElementById('scene');
-        let parallaxInstance = new Parallax(scene);
+        if (scene.clientWidth >= 1000) {
+         let parallaxInstance = new Parallax(scene);
+        }
     }, [])
+
     
 
     return(
