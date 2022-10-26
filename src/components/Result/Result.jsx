@@ -18,8 +18,8 @@ const Result = ({correct, all, restartQuiz}) => {
             <div className={s.wrapper}>
                 <h1>Конец</h1>
                 <p >Ты ответила правильно на {correct} из {all}!</p>
-                <Link className={s.again} to="/test" >Пройти заново</Link>
-                <Link className={s.back} to="/">На главную</Link>
+                <Link className={s.again} to="/Quiz-React/test" >Пройти заново</Link>
+                <Link className={s.back} to="/Quiz-React/">На главную</Link>
             </div>
           
     );

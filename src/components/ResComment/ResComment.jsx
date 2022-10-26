@@ -10,7 +10,7 @@ const ResComment = ({ image, comment,onClickNext, finalCond}) => {
         <img className={s.questionImage} src={image} alt="anwspic" />
         <p>{comment}</p>
         {finalCond ?
-            (<NavLink to="/result">Узнать результат!</NavLink>) :
+            (<NavLink to="/Quiz-React/result">Узнать результат!</NavLink>) :
             (<button className={s.next} onClick={() => onClickNext()}>Дальше</button>)
             }
         
